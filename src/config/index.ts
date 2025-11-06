@@ -2,7 +2,7 @@ import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Abigail Ervin - Softball Catcher and Utility Player",
-  author: "Abigail Ervin ",
+  author: "Abigail Ervin",
   description:
     "I am a catcher, corners and utility player with many years of experience starting at 10U and now playing for Pea Ridge High School Lady Blackhawks in Pea Ridge Arkansas.  ",
   lang: "en",
@@ -19,8 +19,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
     { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/abby_ervin.jpg",
+  canonicalURL: "https://greenhairedcatcher.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
