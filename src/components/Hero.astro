@@ -6,16 +6,28 @@ const { name, specialty, summary, email } = Astro.props;
 ---
 
 <section class="py-24 md:py-32" id="#hero">
-  <h1
-    class="mb-1.5 font-serif text-7xl font-bold tracking-tightest text-white sm:text-8xl md:mb-0 md:text-9xl"
-  >
-    {name}
-  </h1>
-  <p
-    class="mb-9 font-serif text-4xl leading-[46px] font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
-  >
-    {specialty}
-  </p>
+  <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+    <!-- image block: uses an <img> so it can scale and use object-cover -->
+    <img
+      src="/abby_ervin.jpg"
+      alt={`${name} portrait`}
+      class="w-[200px] h-[200px] object-cover rounded-2xl flex-shrink-0"
+    />
+
+    <!-- text block: h1 is inline to the right of the image on larger screens -->
+    <div>
+      <h1
+        class="mb-1.5 font-serif text-6xl font-bold tracking-tightest text-white sm:text-7xl md:mb-0 md:text-9xl"
+      >
+        {name}
+      </h1>
+      <p
+        class="mb-9 font-serif text-4xl leading-[46px] font-bold tracking-tighter text-primary sm:text-5xl md:text-6xl"
+      >
+        {specialty}
+      </p>
+    </div>
+  </div>
   <p class="mb-16 text-base font-normal text-neutral md:text-lg">
     {summary}
   </p>

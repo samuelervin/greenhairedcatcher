@@ -34,50 +34,76 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       company: "14U Vipers",
-      position: "Lead Android Developer",
-      startDate: "2018-05-01",
-      endDate: "2020-09-01",
+      position: "Catcher / Utility Player",
+      startDate: "2025",
+      endDate: "Spring/Summer",
       summary: [
-        "Implemented memory management and optimizations, reducing load time by 40% and crashes by 25%.",
-        "Led a team using Jetpack components (LiveData, ViewModel) to improve scalability and delivery speed.",
-        "Integrated Google Pay and Firebase Analytics, increasing transaction revenue and retention.",
+        ".325 batting average with 40 at bats",".450 slugging percentage", 
+        "14 RBIs and 3 stolen bases.",
+        "112 total chances, 9 assists, and 96 put outs with a .938 fielding percentage.",
+        
+      ],
+    },
+    {
+      company: "14U Athletics",
+      position: "Catcher / Utility Player",
+      startDate: "Fall",
+      endDate: "2024",
+      summary: [
+        ".250 batting average with 8 at bats",".625 slugging percentage,",
+        "4 RBIs, 3 stolen bases and 2 home runs.",
+        "14 total chances, 9 assists, and 12 put outs with a .857 fielding percentage.",
       ],
     },
     {
       company: "14U Lethal",
-      position: "Mobile Developer",
-      startDate: "2017-02-01",
-      endDate: "2018-05-01",
+      position: "Catcher / Utility Player",
+      startDate: "Spring/Summer",
+      endDate: "2024",
       summary: [
-        "Developed a cross-platform Flutter app, reducing development time by 50%.",
-        "Integrated biometric auth and encryption, improving security and reducing unauthorized access.",
+        ".381 batting average with 56 at bats",".983 slugging percentage", 
+        "19 RBIs, 5 stolen bases and 1 home run.",
+        "18 total chances, 11 assists, and 15 put outs with a .952 fielding percentage.",
+      ],
+    },
+    {
+      company: "14U Prime",
+      position: "Catcher / Utility Player",
+      startDate: "Fall",
+      endDate: "2023",
+      summary:
+        [
+        ".399 batting average with 18 at bats",".695 slugging percentage", 
+        "6 RBIs and 4 stolen bases.",
       ],
     },
     {
       company: "12U Freedom",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      position: "Catcher / Utility Player",
+      startDate: "Spring/Summer",
+      endDate: "2023",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
-    {
-      company: "12U Prime",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        [
+        ".390 batting average with 54 at bats",".683 slugging percentage", 
+        "13 RBIs and 18 stolen bases.",
+      ],
     },
     {
       company: "12U Rogers Rebels",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
+      position: "Catcher / Utility Player",
+      startDate: "Fall/Spring/Summer",
+      endDate: "2021-2022",
+    summary:
+      "",
+  },
+  {
+      company: "12U Athletics",
+      position: "Utility Player",
+      startDate: "Spring/Summer",
+      endDate: "2021",
       summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
-  ],
+        "Stats missing.",
+    },],
   projects: [
     {
       name: "Kailey Wyckoff",
@@ -94,8 +120,8 @@ export const SITE_CONTENT: SiteContent = {
       image: "https://thenewyorkrise.com/wp-content/uploads/2024/08/linnie-malkin-ny-rise-bio-img-rev1-1024x1024.jpg",
     },
     {
-      name: "Brie",
-      summary: "Hitting Coach.",
+      name: "Brie Ellis",
+      summary: "Temporary Hitting Coach.",
       linkPreview: "/",
       linkSource: "https://arkansasrazorbacks.com/roster/bri-ellis/",
       image: "https://arkansasrazorbacks.com/wp-content/uploads/2023/10/77-Bri-Ellis-2024-SB-Headshot.png",
