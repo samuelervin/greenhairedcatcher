@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "I am a catcher, corners and utility player with many years of experience starting at 10U and now playing for Pea Ridge High School Lady Blackhawks in Pea Ridge Arkansas.  ",
   lang: "en",
-  siteLogo: "/abby_catching.jpg",
+  siteLogo: "/abby.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Coaches", href: "#projects" },
@@ -32,8 +32,17 @@ export const SITE_CONTENT: SiteContent = {
     email: "samuel.ervin@gmail.com",
   },
   experience: [
+  {
+      company: "Pea Ridge High School Lady Blackhawks",
+      position: "Catcher / Utility Player",
+      startDate: "2026",
+      endDate: "Spring",
+      summary: [
+        "Season started 2/26/26 and is still ongoing.",
+      ],
+    },
     {
-      company: "14U Vipers",
+      company: "14U Vipers/Tide",
       position: "Catcher / Utility Player",
       startDate: "2025",
       endDate: "Spring/Summer",
